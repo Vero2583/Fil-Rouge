@@ -1,0 +1,30 @@
+:roots{
+    ---primary:#212529;
+    ---secondery:#F8F9FA;
+    ---mute:#666;
+    ---texte:var(---secondery);
+    
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background: #212529;
+    color:#F8F9FA;
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    grid-template-rows: repeat();
+    grid-template-areas: 
+    "header" "header"
+    "main" "main"
+    "footer""footer"
+    ;
+}
+
+
+
